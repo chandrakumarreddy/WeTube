@@ -1,0 +1,24 @@
+{
+  "name": "wetube",
+  "version": "1.0.0",
+  "description": "Cloning youtube using vanilla javascript",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "\"Youtube",
+    "clone\"",
+    "\"vanilla",
+    "Javascript\"",
+    "\"Node",
+    "js\"",
+    "\"youtube\"",
+    "\"clone\""
+  ],
+  "author": "chandra kumar reddy",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
