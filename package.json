@@ -4,7 +4,7 @@
   "description": "Cloning youtube using vanilla javascript",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "babel-watch server.js"
   },
   "keywords": [
     "\"Youtube",
@@ -20,5 +20,10 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.0",
+    "babel-watch": "^7.0.0"
   }
 }
